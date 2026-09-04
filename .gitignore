@@ -1,0 +1,36 @@
+# Корневой .gitignore репозитория.
+# Unity-проект лежит в RoadsOfDaVinci/ — свои правила у него в RoadsOfDaVinci/.gitignore.
+# Здесь только то, что появляется на уровне корня репо и не покрывается вложенным файлом.
+
+# JetBrains Rider / ReSharper
+.idea/
+*.DotSettings.user
+
+# Visual Studio
+.vs/
+.vsconfig
+
+# Visual Studio Code (в проекте используется Rider)
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+HANDOFF_2026-08-23.md
+HANDOFF_2026-08-31.md
+AGENTS.md
+BUILD.md
+CLAUDE.md
+UI_LAYOUT.md
+CLEANUP_AUDIT.md
+.cursor/
+.claude/

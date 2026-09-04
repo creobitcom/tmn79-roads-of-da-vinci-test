@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3528bfede9614890a7ae20ebd892f532, type: 3}
+  m_Name: Cutscene_intro
+  m_EditorClassIdentifier: 
+  _videoFile: First/video.mp4
+  _trigger: 1
+  _level: 0
+  _playOnce: 1
+  _showComicsAfter: 0
+  _canSkip: 1
+  _skipButtonDelay: 0
+  _pauseMusic: 1
+  _volume: 0.642
+  _subtitles:
+  - Start: 0
+    End: 4.6
+    LocKey: Cutscene001Page001Start01
+  - Start: 4.97
+    End: 9.66
+    LocKey: Cutscene001Page001Start02
+  - Start: 12.12
+    End: 15.35
+    LocKey: Cutscene001Page001Start03
+  - Start: 15.94
+    End: 21.84
+    LocKey: Cutscene001Page001Start04
+  - Start: 22.99
+    End: 24.99
+    LocKey: Cutscene001Page001Start05
+  - Start: 25.19
+    End: 30.15
+    LocKey: Cutscene001Page001Start06
+  - Start: 30.91
+    End: 36.64
+    LocKey: Cutscene001Page001Start07
+  - Start: 37.03
+    End: 39.87
+    LocKey: Cutscene001Page001Start08
+  - Start: 41.67
+    End: 47.62
+    LocKey: Cutscene001Page001Start09
+  - Start: 47.67
+    End: 52.32
+    LocKey: Cutscene001Page001Start10
+  - Start: 53.29
+    End: 56.09
+    LocKey: Cutscene001Page001Start11

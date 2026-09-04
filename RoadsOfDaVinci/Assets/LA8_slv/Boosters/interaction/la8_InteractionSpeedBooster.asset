@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 704afabfb249473439135c7f35785e81, type: 3}
+  m_Name: la8_InteractionSpeedBooster
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: InteractionSpeed
+  <TypeTagsContainsMode>k__BackingField: 1
+  <UnitsTypeTags>k__BackingField:
+  - {fileID: 11400000, guid: 2ac111b36ac50b44683de1ffb027f013, type: 2}
+  - {fileID: 11400000, guid: c42d01ce27828de4290c703185c6a821, type: 2}
+  - {fileID: 11400000, guid: 46e5bd6e281998348ae54df7644c7966, type: 2}
+  - {fileID: 11400000, guid: a37cfa1612659f14abbf4b93252c8394, type: 2}
+  - {fileID: 11400000, guid: e84484b6506e57b45823e7aedd015449, type: 2}
+  <UsageDurationInSeconds>k__BackingField: 20
+  <ChargeDurationInSeconds>k__BackingField: 25
+  <UnitsWalkSpeed>k__BackingField:
+    <Value>k__BackingField: 0
+    <Mode>k__BackingField: 0
+  <UnitsInteractionSpeed>k__BackingField:
+    <Value>k__BackingField: 2
+    <Mode>k__BackingField: 1
+  <TimerSpeed>k__BackingField:
+    <Value>k__BackingField: 0
+    <Mode>k__BackingField: 0
+  <DischargedBoosterSprite>k__BackingField: {fileID: 21300000, guid: b09aa2c451131214ab3181e4ffd45c05, type: 3}
+  <ChargedBoosterSprite>k__BackingField: {fileID: 21300000, guid: af62c8c8aeb6dc24fa6f4cee618676bc, type: 3}
+  <ActiveBoosterSprite>k__BackingField: {fileID: 21300000, guid: af62c8c8aeb6dc24fa6f4cee618676bc, type: 3}
+  <ExtraBoosterSprite>k__BackingField: {fileID: 21300000, guid: a873e085ab984874d98b133f2f841860, type: 3}
+  <UsageSound>k__BackingField: {fileID: 8300000, guid: 2397a925beae642729605e0fe21fa334, type: 3}

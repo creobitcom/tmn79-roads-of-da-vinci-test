@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d1a4e6c2f0451f9c3d8a2b6e5f400a, type: 3}
+  m_Name: Pack01
+  m_EditorClassIdentifier: 
+  sun:
+    applyToSceneLight: 1
+    color: {r: 1, g: 0.89303106, b: 0.7311321, a: 1}
+    intensity: 1.56
+    angle: 166
+    elevation: 33.4
+    ambient: {r: 0.41509432, g: 0.24866499, b: 0.2972778, a: 1}
+    ambientIntensity: 1.09
+  sprites:
+    apply: 1
+    assetsTint: {r: 1, g: 1, b: 1, a: 1}
+    assetsLit: 1
+    assetsVolume: 0
+    assetsRim: 0
+    assetsGroundShade: 0
+    assetsGroundShadeHeight: 0.99
+    assetsSaturation: 1.002
+    assetsHazeBlend: 0.195
+    includeBackground: 1
+    backgroundTint: {r: 1, g: 0.96, b: 0.91, a: 1}
+    backgroundLit: 0.95
+    backgroundSaturation: 0.797
+    backgroundHazeBlend: 0.329
+    backgroundGradeInfluence: 1
+    overrideBackgroundGrade: 0
+    backgroundContrast: 1
+    backgroundTemperature: 0
+    useShaderWind: 0
+    shaderWindStrength: 1
+    rescanIntervalFrames: 30
+    backgroundNameParts:
+    - Background
+    - FHD
+    - LevelBack
+    - Back_
+    windNameParts:
+    - weed
+    - bush
+    - grass
+    - roots
+    - tree
+    - flag
+    - flower
+    - web
+    - berry
+    skipNameParts:
+    - Glow
+    - Highlight
+    - Outline
+    - Frame
+    - Fog
+    - Shadow
+    - Particle
+    - Selection
+    - Arrow
+    - Icon
+    - Exclamation
+    - _mark
+    - Hint
+    - OnBlockPath
+    - Badge
+    - Bubble
+    skipSortingLayers:
+    - UI
+    - Fog
+    - FogLight
+  hazeLayers:
+  - enabled: 0
+    layerName: SunGlow
+    color: {r: 1, g: 0.74, b: 0.48, a: 1}
+    opacity: 0.15
+    darken: 0
+    lightShafts: 0
+    texture: {fileID: 0}
+    noiseScale: 1.8
+    detail: 0.35
+    coverage: 0.5
+    softness: 0.75
+    scrollSpeed: {x: 0.006, y: 0.0015}
+    windResponse: 1
+    maskBottom: 0.15
+    maskTop: 1
+    maskFeather: 0.45
+    edgeFade: 0.06
+    fitToCamera: 1
+    size: {x: 28, y: 16}
+    offset: {x: 0, y: 0}
+    sortingLayer: FogLight
+    sortingOrder: 0
+    depth: -1
+  - enabled: 0
+    layerName: LowMist
+    color: {r: 0.98, g: 0.78, b: 0.65, a: 1}
+    opacity: 0.12
+    darken: 0
+    lightShafts: 0
+    texture: {fileID: 0}
+    noiseScale: 4.5
+    detail: 0.55
+    coverage: 0.6
+    softness: 0.5
+    scrollSpeed: {x: 0.02, y: 0.001}
+    windResponse: 1
+    maskBottom: 0
+    maskTop: 0.35
+    maskFeather: 0.25
+    edgeFade: 0.06
+    fitToCamera: 1
+    size: {x: 28, y: 16}
+    offset: {x: 0, y: 0}
+    sortingLayer: FogLight
+    sortingOrder: 1
+    depth: -1.05
+  - enabled: 1
+    layerName: CloudShadows
+    color: {r: 0.2735849, g: 0.07590597, b: 0.06323425, a: 1}
+    opacity: 0.24
+    darken: 1
+    lightShafts: 0
+    texture: {fileID: 0}
+    noiseScale: 8.81
+    detail: 0
+    coverage: 0.25
+    softness: 0.65
+    scrollSpeed: {x: 0.06, y: 0}
+    windResponse: 0
+    maskBottom: 0
+    maskTop: 1
+    maskFeather: 0.6
+    edgeFade: 0
+    fitToCamera: 1
+    size: {x: 36.74, y: 20.8}
+    offset: {x: 0.1, y: 0}
+    sortingLayer: FogLight
+    sortingOrder: 2
+    depth: -1.1
+  particleLayers:
+  - enabled: 1
+    layerName: Pollen
+    anchor: {fileID: 0}
+    color: {r: 0.8773585, g: 0.6423996, b: 0.45109472, a: 0.6}
+    rate: 5
+    sizeRange: {x: 0.1, y: 0.1}
+    lifetimeRange: {x: 6, y: 10}
+    speedRange: {x: 0.2, y: 0.5}
+    windFollow: 1.42
+    gravity: -0.01
+    turbulence: 0.27
+    turbulenceFrequency: 0.3
+    rotationSpeed: -138
+    flicker: 0.445
+    brightness: 2.25
+    feather: 0.391
+    hardness: 0.31
+    stretch: 0.71
+    texture: {fileID: 0}
+    fitToCamera: 1
+    area: {x: 28, y: 16}
+    areaOffset: {x: 0, y: 0}
+    sortingLayer: FogLight
+    sortingOrder: 5
+    depth: -1.3
+  wind:
+    apply: 1
+    direction: 15
+    strength: 0.4
+    frequency: 0.35
+    gustAmount: 0.5
+    gustInterval: 9
+    gustDuration: 2.2
+    swayTransforms: 0
+    swayAngle: 2.5
+    swayOffset: 0.15
+    swayRescanIntervalFrames: 60
+    swayNameParts:
+    - flag
+    - tent
+    - banner
+  exposure: 0.978
+  contrast: 1
+  colorSaturation: 1
+  temperature: 0
+  particleDensity: 0.745
+  particleSpeed: 1.007
+  hazeInfluenceOnSprites: 1
+  enableBloom: 0
+  bloomIntensity: 1
+  bloomThreshold: 1.191
+  bloomScatter: 0.591
+  vignetteIntensity: 0
+  vignetteSmoothness: 0.47
+  tiltShiftStrength: 0
+  tiltShiftCenter: 0.5
+  tiltShiftWidth: 0.16
+  tiltShiftFeather: 0.35
+  backgroundParallax: 0

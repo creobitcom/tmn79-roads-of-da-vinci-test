@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4377983616990725506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7087028183402174809}
+  - component: {fileID: 4173093190061168335}
+  m_Layer: 0
+  m_Name: MetaScope
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7087028183402174809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4377983616990725506}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4173093190061168335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4377983616990725506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57833cbb117241e29486da07bcc3db36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentReference:
+    TypeName: Creobit.Bootstrap.Core.Scripts.Runtime.Initialization.BootstrapInit.BootstrapScope
+  autoRun: 1
+  autoInjectGameObjects: []
+  ModulesDataJson: {fileID: 4900000, guid: 179588d79eec4cb4fb1e7af284531625, type: 3}
+  _sceneReferences:
+    <MetaCanvas>k__BackingField: {fileID: 0}
+    <MapBackground>k__BackingField: {fileID: 11400000, guid: ef7a526ef7b964867a6db7e2f5866f98, type: 2}
+    <MapPages>k__BackingField:
+    - {fileID: 11400000, guid: c84a693ec2972465680d8fb403b670e7, type: 2}
+    <MapSpotSpritesByStates>k__BackingField:
+    - state: 0
+      sprite: {fileID: 21300000, guid: 0296b216775ba4b628b1fc425043d16e, type: 3}
+    - state: 1
+      sprite: {fileID: 21300000, guid: c253524f17c3448e88e82e631c72099b, type: 3}
+    - state: 2
+      sprite: {fileID: 21300000, guid: af0c0ed0e850c4037a8af85c4680776f, type: 3}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d98e9ddad4548b097ea7c96bcf4cb3b, type: 3}
+  m_Name: CutsceneLibrary
+  m_EditorClassIdentifier: 
+  _viewPrefab: {fileID: 3399026731237246955, guid: 9f21dc77977df0049a080a0690918175, type: 3}
+  _audioMixerGroup: {fileID: -1452433984731111140, guid: 982960b8678044777b86fe67b098a032, type: 2}
+  _subtitleStyle:
+    Font: {fileID: 0}
+    AutoSize: 1
+    FontSizeMin: 24
+    FontSizeMax: 44
+    TextColor: {r: 1, g: 1, b: 1, a: 1}
+    PlateColor: {r: 0, g: 0, b: 0, a: 0.40392157}
+    PlateHeight: 160
+    SideMargin: 0
+    BottomOffset: 0
+  _cutscenesFolder: Assets/LA8_slv/Cutscenes
+  _cutscenes:
+  - {fileID: 11400000, guid: 6d14030a4945fa74ba2725adbe93afb0, type: 2}

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ScanSweep
+  m_Shader: {fileID: 4800000, guid: f6db9cd88abe410ab26888c7d963f801, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Ambient: 0.08
+    - _FrameCorners: 0.55
+    - _FrameMinSize: 0.18
+    - _BandWidth: 0.24
+    - _EdgeIntensity: 1
+    - _EdgeWidth: 0.14
+    - _Intensity: 0.9
+    - _LineCount: 16
+    - _LineStrength: 0.3
+    - _Progress: 0
+    - _Shape: 0
+    - _Softness: 0.8
+    - _SpriteBoost: 0.55
+    m_Colors:
+    - _BandColor: {r: 0.42, g: 0.92, b: 1, a: 1}
+    - _EdgeColor: {r: 0.85, g: 1, b: 1, a: 1}
+    - _SweepAxis: {r: 1, g: 0, b: 0, a: 1}
+    - _SweepBounds: {r: 0, g: 0, b: 1, a: 1}
+  m_BuildTextureStacks: []

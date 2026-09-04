@@ -1,0 +1,41 @@
+{
+  "TextLocalizationService": {
+    "rid": 1000
+  },
+  "SpriteLocalizationService": {
+    "rid": 1001
+  },
+  "references": {
+    "version": 2,
+    "RefIds": [
+      {
+        "rid": 1000,
+        "type": {
+          "class": "UnityTextLocalizationService",
+          "ns": "Creobit.Bootstrap.Core.Scripts.Runtime.Localization.Services.TextLocalization",
+          "asm": "Assembly-CSharp"
+        },
+        "data": {
+          "_unityTextLocalizationSettings": {
+            "<LocalizedStringTable>k__BackingField": {
+              "m_TableReference": {
+                "m_TableCollectionName": "GUID:abad638d36ca9c04ea196d8b8ef8dffe"
+              }
+            }
+          }
+        }
+      },
+      {
+        "rid": 1001,
+        "type": {
+          "class": "UnitySpriteLocalizationService",
+          "ns": "Creobit.Bootstrap.Core.Scripts.Runtime.Localization.Services.SpriteLocalization",
+          "asm": "Assembly-CSharp"
+        },
+        "data": {
+          "_unitySpriteLocalizationSettings": {}
+        }
+      }
+    ]
+  }
+}

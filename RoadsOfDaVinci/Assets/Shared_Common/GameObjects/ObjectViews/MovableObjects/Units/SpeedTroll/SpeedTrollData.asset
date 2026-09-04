@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d589b72e0f9744fbb89bfa4d435c802a, type: 3}
+  m_Name: SpeedTrollData
+  m_EditorClassIdentifier: 
+  <ObjectTypeTagsContainsMode>k__BackingField: 0
+  <ObjectTypeTags>k__BackingField:
+  - {fileID: 11400000, guid: c7d1d52d91d0242678f0731362eeb226, type: 2}
+  <TaskTypeTags>k__BackingField: []
+  <IsStealable>k__BackingField: 0
+  <StealerTagsContainsMode>k__BackingField: 0
+  <StealerObjectTags>k__BackingField: []
+  <CanReactToPrimaryAction>k__BackingField: 0
+  <CanReactToSecondaryAction>k__BackingField: 0
+  <BlocksPath>k__BackingField: 0
+  <UniqueBadgesData>k__BackingField:
+    <TaskBadgeOffset>k__BackingField: {x: 0, y: 0, z: 0}
+    <HasUniqueBadges>k__BackingField: 0
+    <UniqueBadges>k__BackingField: []
+  <TaskRegisterSound>k__BackingField: {fileID: 0}
+  <Interacting>k__BackingField: {fileID: 0}
+  <InteractingFrequencyMultiplier>k__BackingField: 0
+  <InteractionEnd>k__BackingField: {fileID: 0}
+  <CanInteract>k__BackingField: 0
+  <InteractionsAmount>k__BackingField: 1
+  <GivesResourcesImmediatelyAfterInteraction>k__BackingField: 0
+  <InteractionNeedInputResources>k__BackingField: 0
+  <InputResources>k__BackingField: []
+  <InteractionHaveOutputResources>k__BackingField: 0
+  <OutputResources>k__BackingField: []
+  <InteractionTime>k__BackingField: 1
+  <InteractionType>k__BackingField: 0
+  <DeactivateAfterFinalInteraction>k__BackingField: 0
+  <InteractionOffset>k__BackingField: 0.5
+  <MovableObjectAmountToInteract>k__BackingField: 0
+  <ReturnMovableObjectsToHomePoint>k__BackingField: 1
+  <MovableObjectHideOnInteract>k__BackingField: 0
+  <ShowTooltip>k__BackingField: 0
+  <TooltipSettings>k__BackingField:
+    <TooltipData>k__BackingField: {fileID: 0}
+    <ShowObjectImage>k__BackingField: 0
+    <ShowObjectName>k__BackingField: 0
+    <ShowDescription>k__BackingField: 0
+    <IsExchangeTooltip>k__BackingField: 0
+    <TooltipOffset>k__BackingField: {x: 0, y: 0}
+    <NotEnoughResourcesOffset>k__BackingField: {x: 0, y: 0}
+    <NoPathOffset>k__BackingField: {x: 0, y: 0}
+  <CanBeBuilt>k__BackingField: 0
+  <BuildingSettings>k__BackingField:
+    <ObjectTypeTagsContainsMode>k__BackingField: 0
+    <TaskTypeTags>k__BackingField: []
+    <MovableObjectAmountToBuild>k__BackingField: 0
+    <ReturnMovableObjectsToHomePoint>k__BackingField: 1
+    <CanBeReturnedToInitialState>k__BackingField: 0
+  <BaseTypeTags>k__BackingField:
+  - {fileID: 11400000, guid: 3140a3d39e13a0d4ba4919a05bb4971f, type: 2}
+  <StashResourcesAfterEndMove>k__BackingField: 0
+  <Speed>k__BackingField: 5
+  <InteractionSpeed>k__BackingField: 1
+  <UseRotator>k__BackingField: 1
+  <RotatorRotationSpeed>k__BackingField: 12
+  <UseResourcesStealer>k__BackingField: 0
+  <UnitIconInsideBase>k__BackingField: {fileID: 21300000, guid: 2f0818c04e90d4cecbd2335d99f28b9e, type: 3}
+  <UnitIconOutsideBase>k__BackingField: {fileID: 21300000, guid: 9e5e7842abffde9458dadca79b2ead28, type: 3}
+  UnitHideInBase: 1

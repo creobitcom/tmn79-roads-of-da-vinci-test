@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449e7b5a83b24a8b9b728d4484a9b80f, type: 3}
+  m_Name: RecipesData_lvl25
+  m_EditorClassIdentifier: 
+  recipes:
+  - inputResources:
+    - <Resource>k__BackingField: {fileID: 11400000, guid: b2d080b590e552c4bb287d45795699de, type: 2}
+      <Amount>k__BackingField: 5
+    - <Resource>k__BackingField: {fileID: 11400000, guid: 7e08d6d3a816fb74da6131186c483a18, type: 2}
+      <Amount>k__BackingField: 5
+    outputResources:
+    - <Resource>k__BackingField: {fileID: 11400000, guid: d026f488b18a3e64ba6a4a2d07f54114, type: 2}
+      <Amount>k__BackingField: 1
+  - inputResources:
+    - <Resource>k__BackingField: {fileID: 11400000, guid: 7e08d6d3a816fb74da6131186c483a18, type: 2}
+      <Amount>k__BackingField: 10
+    outputResources:
+    - <Resource>k__BackingField: {fileID: 11400000, guid: f11fcb8a8dd444242b2fbe256ff7db9b, type: 2}
+      <Amount>k__BackingField: 1

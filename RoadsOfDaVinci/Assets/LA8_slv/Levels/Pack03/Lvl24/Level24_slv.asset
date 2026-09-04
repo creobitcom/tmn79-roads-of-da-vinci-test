@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8494bc803d0a4e8d98487d703c3f2c7a, type: 3}
+  m_Name: Level24_slv
+  m_EditorClassIdentifier: 
+  _levelName: la8_name_lvl24
+  _levelDescription: StartLvl24
+  _levelNumber: 22
+  _overrideLevelName: 0
+  _useLevelNameInStartTasksView: 1
+  _levelPrefab: {fileID: 4194113852620999164, guid: a57a981abc828354389c25979a07e6cc, type: 3}
+  _nextLevel:
+    m_AssetGUID: 137296aaa5e382e4c8a2b74e2fe7bb6b
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
+  _haveFinalPoint: 0
+  _guide: {fileID: 0}
+  _levelPveStartImage: {fileID: 0}
+  _startResources: []
+  _levelTasks:
+  - {fileID: 11400000, guid: 6079ca0dc73690a46a0a7e7b16d27273, type: 2}
+  - {fileID: 11400000, guid: 8d28b2f002e623445b09181e4ef72cc0, type: 2}
+  _music: {fileID: 8300000, guid: 91ad9ce18c9222b46a3e42afd6a852c6, type: 3}
+  _levelTimerData:
+    <GameplayIntervalGeneralParameters>k__BackingField:
+      _durationSeconds: 500
+      _tickIntervalSeconds: 1
+      <LoopAmounts>k__BackingField: 1
+    <Orientation>k__BackingField: 1
+    <LevelStarsData>k__BackingField:
+    - <StarPrefab>k__BackingField: {fileID: 8743782619997083839, guid: 9449b8e4356a7ea4ea2c374e74fba803, type: 3}
+      <TimeLeftMoreThan>k__BackingField: 340
+    - <StarPrefab>k__BackingField: {fileID: 8743782619997083839, guid: 9449b8e4356a7ea4ea2c374e74fba803, type: 3}
+      <TimeLeftMoreThan>k__BackingField: 355
+    - <StarPrefab>k__BackingField: {fileID: 8743782619997083839, guid: 9449b8e4356a7ea4ea2c374e74fba803, type: 3}
+      <TimeLeftMoreThan>k__BackingField: 375
+  _boostersData: []
+  _boostersChargedOnStart: []
+  _globalLightIntensityOnStart: 1.55
+  _globalPostProcessActiveOnStart: 0
+  _enableTutorial: 0
+  _usingStartTutorial: 1
+  _startTutorial: {fileID: 11400000, guid: c85e8f9facfbfda47a00e95a85a697d2, type: 2}
+  _usingStartDialogue: 1
+  _startDialogue: 
+  _enableDisease: 0
+  _diseasableBaseMinInterval: 135
+  _diseasableBaseMaxInterval: 150
+  _enableRepair: 0
+  _breakableBaseMinInterval: 100
+  _breakableBaseMaxInterval: 150
+  _resourcesForResourcePanel:
+  - {fileID: 11400000, guid: 1dc2622bfb26d674498a0d99be15ab14, type: 2}
+  - {fileID: 11400000, guid: b2d080b590e552c4bb287d45795699de, type: 2}
+  - {fileID: 11400000, guid: 7e08d6d3a816fb74da6131186c483a18, type: 2}
+  - {fileID: 11400000, guid: 3f6e944f576059043a8aeffa1d9bd675, type: 2}

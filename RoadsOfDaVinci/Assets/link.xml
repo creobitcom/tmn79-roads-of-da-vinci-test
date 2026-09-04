@@ -1,0 +1,12 @@
+<linker>
+  <!-- Сохраняет все типы в сборке -->
+  <assembly fullname="Assembly-CSharp" preserve="all"/>
+  
+  <!-- Дополнительно: сохраняет Newtonsoft.Json -->
+  <assembly fullname="Newtonsoft.Json">
+    <type fullname="Newtonsoft.Json.*" preserve="all"/>
+  </assembly>
+  
+  <!-- Если используете другие сборки -->
+  <assembly fullname="Creobit.Bootstrap" preserve="all"/>
+</linker>

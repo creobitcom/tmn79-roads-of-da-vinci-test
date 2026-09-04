@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68995ebf5d54410a80f88afb7ff799bf, type: 3}
+  m_Name: WorkerBaseGrade1_FreeMovement
+  m_EditorClassIdentifier: 
+  <ObjectTypeTags>k__BackingField: []
+  <TaskTypeTags>k__BackingField: []
+  <IsStealable>k__BackingField: 0
+  <StealerTagsContainsMode>k__BackingField: 0
+  <StealerObjectTags>k__BackingField: []
+  <CanReactToPrimaryAction>k__BackingField: 1
+  <CanReactToSecondaryAction>k__BackingField: 1
+  <BlocksPath>k__BackingField: 0
+  <UniqueBadgesData>k__BackingField:
+    <TaskBadgeOffset>k__BackingField: {x: 0, y: 0, z: 0}
+    <HasUniqueBadges>k__BackingField: 0
+    <UniqueBadges>k__BackingField: []
+  <IgnoreIdleHighlight>k__BackingField: 0
+  <OverrideIgnoreIdleHighlight>k__BackingField: 0
+  <TaskRegisterSound>k__BackingField: {fileID: 0}
+  <Interacting>k__BackingField: {fileID: 8300000, guid: c2aa5a9f62190424ba60f263f046e1ae, type: 3}
+  <InteractingFrequencyMultiplier>k__BackingField: 0.85
+  <InteractionEnd>k__BackingField: {fileID: 0}
+  <CanInteract>k__BackingField: 0
+  <InteractionsAmount>k__BackingField: 1
+  <GivesResourcesImmediatelyAfterInteraction>k__BackingField: 0
+  <InteractionNeedInputResources>k__BackingField: 0
+  <InputResources>k__BackingField: []
+  <InteractionHaveOutputResources>k__BackingField: 0
+  <OutputResources>k__BackingField: []
+  <InteractionTime>k__BackingField: 1
+  <UseTaskView>k__BackingField: 1
+  <InteractionType>k__BackingField: 0
+  <DeactivateAfterFinalInteraction>k__BackingField: 0
+  <InteractionOffset>k__BackingField: 0.5
+  UnitTypeCount: []
+  <ReturnMovableObjectsToHomePoint>k__BackingField: 1
+  <MovableObjectHideOnInteract>k__BackingField: 0
+  <AlternativeInteractions>k__BackingField: []
+  <ShowTooltip>k__BackingField: 1
+  <TooltipSettings>k__BackingField:
+    <TooltipData>k__BackingField: {fileID: 11400000, guid: 89249030e72bb68459fff07850fcf579, type: 2}
+    <ShowObjectImage>k__BackingField: 0
+    <ShowObjectName>k__BackingField: 1
+    <ShowDescription>k__BackingField: 0
+    <IsExchangeTooltip>k__BackingField: 0
+    <Template>k__BackingField: {fileID: 11400000, guid: 998030b539dd3de40801352f1e2cdba4, type: 2}
+    <HideWhenNothingToDo>k__BackingField: 0
+    <BaseTooltipOffset>k__BackingField: {x: 0, y: 150}
+    <ResourcesTooltipOffset>k__BackingField: {x: 0, y: 150}
+    <PathTooltipOffset>k__BackingField: {x: 0, y: 100}

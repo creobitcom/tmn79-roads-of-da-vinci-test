@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645086737a774f4aa04b815a8d1b9eee, type: 3}
+  m_Name: Gameplay Settings
+  m_EditorClassIdentifier: 
+  <BadgeSprites>k__BackingField:
+  - <TaskProgress>k__BackingField: 1
+    <BadgeSprite>k__BackingField: {fileID: 21300000, guid: 29d70bc77929e0e4284ec3a036c12066, type: 3}
+    <IsBackActive>k__BackingField: 1
+  - <TaskProgress>k__BackingField: 0
+    <BadgeSprite>k__BackingField: {fileID: 21300000, guid: 29d70bc77929e0e4284ec3a036c12066, type: 3}
+    <IsBackActive>k__BackingField: 0
+  <CanCancelTaskDuringInteraction>k__BackingField: 0
+  <CanCancelTaskDuringRunning>k__BackingField: 0
+  <DelayAfterTask>k__BackingField: 0.8
+  <TooltipPrefab>k__BackingField:
+    m_AssetGUID: bdde5f8b8ff872e47a1a3ff89846f97e
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
+  <NotEnoughResourceTooltipPrefab>k__BackingField:
+    m_AssetGUID: 8971a4b2f14bdfb4e8ef76e57044a61a
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
+  <NoPathTooltipPrefab>k__BackingField:
+    m_AssetGUID: bee1424265edf8648b515b39354fce90
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
+  <CantReachAnotherObjectTooltipPrefab>k__BackingField:
+    m_AssetGUID: dc841675105b39b4cabffe15006ee50a
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
+  <TooltipResourcePrefab>k__BackingField:
+    m_AssetGUID: 6fdd79c9c37a53c4193e3b7cd9d3a7eb
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  <ExchangeTooltipPrefab>k__BackingField:
+    m_AssetGUID: 6ae41472f11eb004f9e86c26797b1625
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1

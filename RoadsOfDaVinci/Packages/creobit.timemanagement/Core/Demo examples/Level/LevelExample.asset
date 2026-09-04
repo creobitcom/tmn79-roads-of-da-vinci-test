@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8494bc803d0a4e8d98487d703c3f2c7a, type: 3}
+  m_Name: LevelExample
+  m_EditorClassIdentifier: 
+  _levelName: LevelExample
+  _levelDescription: LevelExample
+  _levelNumber: 1
+  _overrideLevelName: 0
+  _levelPrefab: {fileID: 7264394128223957855, guid: 5c86c0aeb8020e04fbabac44883d1f05, type: 3}
+  _nextLevel:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 1
+  _haveFinalPoint: 0
+  _startResources:
+  - <Resource>k__BackingField: {fileID: 11400000, guid: 746fe926ce794734da330f067206111c, type: 2}
+    <Amount>k__BackingField: 10
+  - <Resource>k__BackingField: {fileID: 11400000, guid: 9cceee2fce3d850478fe3b75d5405d9e, type: 2}
+    <Amount>k__BackingField: 4
+  - <Resource>k__BackingField: {fileID: 11400000, guid: 751b379303416844e909394aff89ab12, type: 2}
+    <Amount>k__BackingField: 8
+  _levelTasks:
+  - {fileID: 11400000, guid: 705ca8440014ec641b952063f2ec72a5, type: 2}
+  - {fileID: 11400000, guid: c82810dc44ec88442baaba1df95bba15, type: 2}
+  _music: {fileID: 8300000, guid: 3cb69690d93b83b41995fa9b71cd61c1, type: 3}
+  _levelTimerData:
+    <GameplayIntervalGeneralParameters>k__BackingField:
+      _durationSeconds: 500
+      _tickIntervalSeconds: 1
+      <LoopAmounts>k__BackingField: 1
+    <Orientation>k__BackingField: 1
+    <LevelStarsData>k__BackingField:
+    - <StarPrefab>k__BackingField: {fileID: 8743782619997083839, guid: 9449b8e4356a7ea4ea2c374e74fba803, type: 3}
+      <Stars>k__BackingField: 1
+      <TimeLeftMoreThan>k__BackingField: 40
+    - <StarPrefab>k__BackingField: {fileID: 8743782619997083839, guid: 9449b8e4356a7ea4ea2c374e74fba803, type: 3}
+      <Stars>k__BackingField: 2
+      <TimeLeftMoreThan>k__BackingField: 125
+    - <StarPrefab>k__BackingField: {fileID: 8743782619997083839, guid: 9449b8e4356a7ea4ea2c374e74fba803, type: 3}
+      <Stars>k__BackingField: 3
+      <TimeLeftMoreThan>k__BackingField: 250
+  _boostersData: []
+  _globalLightIntensityOnStart: 1.55
+  _globalPostProcessActiveOnStart: 0
+  _usingStartTutorial: 0
+  _startTutorial: {fileID: 0}
+  _usingStartDialogue: 0
+  _startDialogue: 
+  _resourcesForResourcePanel:
+  - {fileID: 11400000, guid: 751b379303416844e909394aff89ab12, type: 2}
+  - {fileID: 11400000, guid: 746fe926ce794734da330f067206111c, type: 2}
+  - {fileID: 11400000, guid: 9cceee2fce3d850478fe3b75d5405d9e, type: 2}
+  - {fileID: 11400000, guid: dfc99056128f64bac8c184f9b83a53d7, type: 2}

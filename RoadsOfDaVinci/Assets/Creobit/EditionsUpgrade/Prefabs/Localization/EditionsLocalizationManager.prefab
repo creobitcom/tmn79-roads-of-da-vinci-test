@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3252512360900901822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3261851621944326049}
+  - component: {fileID: 1181096275023993908}
+  m_Layer: 0
+  m_Name: EditionsLocalizationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3261851621944326049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252512360900901822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1181096275023993908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252512360900901822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3277f7592e214aa1a8e41cb7dac48ac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _localizationDefine: GameOn
+  _englishLocale: {fileID: 11400000, guid: a82212a6914ed1642983032fc104c8eb, type: 2}
+  _frenchLocale: {fileID: 11400000, guid: a1551c5cd6a0ee34a96122ae2c8cbd18, type: 2}
+  _germanLocale: {fileID: 11400000, guid: 6a6395165295949498e2bb661ab195bc, type: 2}
+  _russianLocale: {fileID: 11400000, guid: d23b5fbba4c51f24187683438b92d11d, type: 2}
+  _dutchLocale: {fileID: 11400000, guid: a82212a6914ed1642983032fc104c8eb, type: 2}
+  _polishLocale: {fileID: 11400000, guid: f549a82b17f10af41be07c2044c6386b, type: 2}
+  _czechLocale: {fileID: 11400000, guid: 5429fe6d91b52974295979edc0ed776c, type: 2}
+  _englishButton: {fileID: 3767224644040962352, guid: 0e5ec055596415c41a52b03245627503, type: 3}
+  _frenchButton: {fileID: 3767224644040962352, guid: 1542e73372b8273499713a83e5922e53, type: 3}
+  _germanButton: {fileID: 3767224644040962352, guid: 2594ca37b2d838349b3c65fa076cec2b, type: 3}
+  _russianButton: {fileID: 3767224644040962352, guid: 22c061465acccb84cb17c814e86e6625, type: 3}
+  _dutchButton: {fileID: 3767224644040962352, guid: 096b978513f9f264da224a925989538b, type: 3}
+  _czechButton: {fileID: 3767224644040962352, guid: 04103b1704871f943a4ce0d0b34d1b89, type: 3}
+  _polishButton: {fileID: 3767224644040962352, guid: 9b54affcf2238534fac95bcf75419341, type: 3}
+  _localizationGroups:
+  - _locale: {fileID: 11400000, guid: a82212a6914ed1642983032fc104c8eb, type: 2}
+    _localizationChangeButton: {fileID: 3767224644040962352, guid: 0e5ec055596415c41a52b03245627503, type: 3}
+    _systemLanguage: 10
+  - _locale: {fileID: 11400000, guid: d23b5fbba4c51f24187683438b92d11d, type: 2}
+    _localizationChangeButton: {fileID: 3767224644040962352, guid: 22c061465acccb84cb17c814e86e6625, type: 3}
+    _systemLanguage: 30
+  _haveEnglish: 1
+  _haveFrench: 0
+  _haveGerman: 0
+  _haveRussian: 1
+  _haveDutch: 0
+  _haveCzech: 0
+  _havePolish: 0

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8494bc803d0a4e8d98487d703c3f2c7a, type: 3}
+  m_Name: Level02_slv
+  m_EditorClassIdentifier: 
+  _levelName: la8_name_lvl02
+  _levelDescription: StartLvl02
+  _levelNumber: 2
+  _overrideLevelName: 0
+  _useLevelNameInStartTasksView: 1
+  _levelPrefab: {fileID: 4194113852620999164, guid: 8a07caf19f070364e8efa9b46138764d, type: 3}
+  _nextLevel:
+    m_AssetGUID: da8be754b1e10734fb8fde0ede482344
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
+  _haveFinalPoint: 0
+  _guide: {fileID: 0}
+  _levelPveStartImage: {fileID: 0}
+  _startResources:
+  - <Resource>k__BackingField: {fileID: 11400000, guid: b2d080b590e552c4bb287d45795699de, type: 2}
+    <Amount>k__BackingField: 7
+  - <Resource>k__BackingField: {fileID: 11400000, guid: 7e08d6d3a816fb74da6131186c483a18, type: 2}
+    <Amount>k__BackingField: 10
+  _levelTasks:
+  - {fileID: 11400000, guid: a664f594f6436c242ab2db037fdd515c, type: 2}
+  - {fileID: 11400000, guid: 29951384597727e4d92a7d4aac86fe25, type: 2}
+  _music: {fileID: 8300000, guid: 202d4dce4d8718b4087f27a855ceaa22, type: 3}
+  _levelTimerData:
+    <GameplayIntervalGeneralParameters>k__BackingField:
+      _durationSeconds: 500
+      _tickIntervalSeconds: 1
+      <LoopAmounts>k__BackingField: 1
+    <Orientation>k__BackingField: 1
+    <LevelStarsData>k__BackingField:
+    - <StarPrefab>k__BackingField: {fileID: 8743782619997083839, guid: 9449b8e4356a7ea4ea2c374e74fba803, type: 3}
+      <TimeLeftMoreThan>k__BackingField: 250
+    - <StarPrefab>k__BackingField: {fileID: 8743782619997083839, guid: 9449b8e4356a7ea4ea2c374e74fba803, type: 3}
+      <TimeLeftMoreThan>k__BackingField: 310
+    - <StarPrefab>k__BackingField: {fileID: 8743782619997083839, guid: 9449b8e4356a7ea4ea2c374e74fba803, type: 3}
+      <TimeLeftMoreThan>k__BackingField: 360
+  _boostersData: []
+  _boostersChargedOnStart: []
+  _globalLightIntensityOnStart: 1.55
+  _globalPostProcessActiveOnStart: 0
+  _enableTutorial: 0
+  _usingStartTutorial: 1
+  _startTutorial: {fileID: 11400000, guid: e0e38396ef531d743be4b85ac11746c6, type: 2}
+  _usingStartDialogue: 1
+  _startDialogue: 
+  _enableDisease: 0
+  _diseasableBaseMinInterval: 135
+  _diseasableBaseMaxInterval: 150
+  _enableRepair: 0
+  _breakableBaseMinInterval: 100
+  _breakableBaseMaxInterval: 150
+  _resourcesForResourcePanel:
+  - {fileID: 11400000, guid: 1dc2622bfb26d674498a0d99be15ab14, type: 2}
+  - {fileID: 11400000, guid: b2d080b590e552c4bb287d45795699de, type: 2}
+  - {fileID: 11400000, guid: 7e08d6d3a816fb74da6131186c483a18, type: 2}
+  - {fileID: 11400000, guid: 3f6e944f576059043a8aeffa1d9bd675, type: 2}
